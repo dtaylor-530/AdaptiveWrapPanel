@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Voron.AdaptiveWrapPanel</RootNamespace>
     <AssemblyName>Voron.AdaptiveWrapPanel</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -46,7 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdaptiveWrapPanel.cs" />
+    <Compile Include="ColumnBreakBehavior.cs" />
+    <Compile Include="ColumnData.cs" />
+    <Compile Include="LengthDefinition.cs" />
+    <Compile Include="VisualHelpers.cs" />
     <Compile Include="ColumnWrapPanel.cs" />
+    <Compile Include="MeasureData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
